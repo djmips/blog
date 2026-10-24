@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header><a href="{{ '/' | relative_url }}">{{ site.title }}</a></header>
+<main>
+{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+{% if page.date %}<p class="date">{{ page.date | date: "%-d %B %Y" }}</p>{% endif %}
+{{ content }}
+</main>
+<footer>{{ site.title }} · <a href="https://github.com/djmips">github.com/djmips</a></footer>
+</body>
+</html>

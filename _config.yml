@@ -1,0 +1,10 @@
+title: djmips
+description: Notes from a game programmer.
+baseurl: /blog
+url: https://djmips.github.io
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+exclude: [README.md]
