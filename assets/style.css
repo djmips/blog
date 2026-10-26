@@ -45,3 +45,4 @@ td, th { font-variant-numeric: tabular-nums; }
 .posts li { margin: 1.25rem 0; }
 .posts .desc { color: var(--dim); font-size: 0.95rem; }
 h3 { font-size: 1.1rem; margin-top: 2rem; }
+video { width: 100%; height: auto; background: #000; border-radius: 4px; }

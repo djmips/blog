@@ -14,6 +14,14 @@ hindsight. The answer: **3.4 times as fast**, from 21 to 71 frames a second, on 
 PDP-1, in the same 4,096 words of memory, with no hardware multiply. By the end there is no
 multiply, divide or square root left anywhere in the game.
 
+<figure>
+<video src="side-by-side.mp4" poster="side-by-side.jpg" width="808" height="440" autoplay muted loop playsinline controls></video>
+<figcaption>Twelve seconds of real time on the same emulated PDP-1. Both games start with the ships in
+the same orbit and fire at the same moments. Left: 2B as it was in April 1962. Right: with the
+changes below. Rendered with Norbert Landsteiner's emulator and its model of the Type 30's
+phosphor.</figcaption>
+</figure>
+
 ## A game programmer opens an ancient artifact
 
 Spacewar! was written at MIT in 1961 and 1962 for a DEC PDP-1: 18-bit words, 4,096 words of
